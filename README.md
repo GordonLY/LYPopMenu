@@ -7,10 +7,13 @@
 支持pod：  pod 'LYPopMenu', '~> 1.0'
 
 ### 效果图
-    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
+    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)
+    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)
+    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
 
 ### 参数说明图
-    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png)![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png)
+    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png)
+    ![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png)
 
 ### 用法示例
     /// models
