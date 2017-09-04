@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-1223" y="-206"/>
         </scene>
-        <!--DLPopMenu-->
+        <!--LYPopMenu-->
         <scene sceneID="6V2-v0-zTA">
             <objects>
-                <viewController id="NpN-B9-v4z" customClass="ViewController" customModule="DLPopMenuDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NpN-B9-v4z" customClass="ViewController" customModule="LYPopMenuDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="unH-TZ-53n"/>
                         <viewControllerLayoutGuide type="bottom" id="1c1-PC-DzS"/>
@@ -145,7 +144,7 @@
                             <constraint firstItem="Pa4-JY-2AP" firstAttribute="height" secondItem="9Cj-K9-Y7z" secondAttribute="height" id="zv0-n3-p1b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="DLPopMenu" id="0CS-rE-z52"/>
+                    <navigationItem key="navigationItem" title="LYPopMenu" id="0CS-rE-z52"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TYm-NO-ojO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
