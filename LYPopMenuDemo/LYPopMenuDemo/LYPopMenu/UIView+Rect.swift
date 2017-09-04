@@ -1,6 +1,6 @@
 //
 //  UIView+Rect.swift
-//  kemiBear
+//  LY
 //
 //  Created by 李扬 on 2017/8/31.
 //  Copyright © 2017年 李扬. All rights reserved.

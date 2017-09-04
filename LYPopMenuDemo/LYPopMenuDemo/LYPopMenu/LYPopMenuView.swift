@@ -1,6 +1,6 @@
 //
 //  LYPopMenuView.swift
-//  DLPopMenuDemo
+//  LYPopMenuDemo
 //
 //  Created by Gordon on 2017/8/31.
 //  Copyright © 2017年 Gordon. All rights reserved.
@@ -9,14 +9,14 @@
 import UIKit
 
 class LYPopMenuView: UIView {
-
+    
     /// action callback
     var action: ((String) -> Void)?
     var showComplete: (() -> Void)?
     var hideComplete: (() -> Void)?
     
     fileprivate let menuView = UIView()
-
+    
     fileprivate var sender: UIView
     fileprivate var style: LYPopMenuStyle
     fileprivate var items: [LYPopMenuModel]
@@ -42,7 +42,7 @@ extension LYPopMenuView {
         self.alpha = 0
         menuView.alpha = 0
         menuView.transform = CGAffineTransform.init(scaleX: 0.6, y: 0.6)
-        UIView.animate(withDuration: 0.2, animations: { 
+        UIView.animate(withDuration: 0.2, animations: {
             self.alpha = 1
             self.menuView.alpha = 1
             self.menuView.transform = .identity
