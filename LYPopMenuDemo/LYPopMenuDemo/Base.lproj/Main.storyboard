@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iur-Ku-I6F">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Uom-2O-QIS">
+            <objects>
+                <navigationController id="iur-Ku-I6F" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cwv-AR-pLa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NpN-B9-v4z" kind="relationship" relationship="rootViewController" id="i34-U1-Vcc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRd-9O-grT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1223" y="-206"/>
+        </scene>
+        <!--DLPopMenu-->
+        <scene sceneID="6V2-v0-zTA">
+            <objects>
+                <viewController id="NpN-B9-v4z" customClass="ViewController" customModule="DLPopMenuDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="unH-TZ-53n"/>
+                        <viewControllerLayoutGuide type="bottom" id="1c1-PC-DzS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pyg-ui-DNN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-fe-pHa">
+                                <rect key="frame" x="5" y="124" width="65" height="36.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bWG-fe-pHa" secondAttribute="height" multiplier="16:9" id="n7n-bp-P0P"/>
+                                </constraints>
+                                <state key="normal" title="style 1">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionStyleBtn:" destination="NpN-B9-v4z" eventType="touchUpInside" id="WR4-au-X7g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRM-vt-jnQ">
+                                <rect key="frame" x="80" y="123.5" width="65" height="36.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="style 2">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionStyleBtn:" destination="NpN-B9-v4z" eventType="touchUpInside" id="5Am-H2-q3s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liS-VP-Uvd">
+                                <rect key="frame" x="155" y="123.5" width="65" height="36.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="style 3">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionStyleBtn:" destination="NpN-B9-v4z" eventType="touchUpInside" id="cLj-DZ-XfG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cj-K9-Y7z">
+                                <rect key="frame" x="230" y="123.5" width="65" height="36.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="style 4">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionStyleBtn:" destination="NpN-B9-v4z" eventType="touchUpInside" id="s0J-6S-dFv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa4-JY-2AP">
+                                <rect key="frame" x="305" y="123.5" width="65" height="36.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="style 5">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionStyleBtn:" destination="NpN-B9-v4z" eventType="touchUpInside" id="agJ-3i-0Ad"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Pa4-JY-2AP" secondAttribute="trailing" constant="5" id="1Qv-18-ZB0"/>
+                            <constraint firstItem="Pa4-JY-2AP" firstAttribute="leading" secondItem="9Cj-K9-Y7z" secondAttribute="trailing" constant="10" id="3B8-ye-3t5"/>
+                            <constraint firstItem="liS-VP-Uvd" firstAttribute="baseline" secondItem="bRM-vt-jnQ" secondAttribute="baseline" id="7C7-Yj-XR4"/>
+                            <constraint firstItem="9Cj-K9-Y7z" firstAttribute="baseline" secondItem="liS-VP-Uvd" secondAttribute="baseline" id="CmP-eB-pym"/>
+                            <constraint firstItem="Pa4-JY-2AP" firstAttribute="width" secondItem="9Cj-K9-Y7z" secondAttribute="width" id="DrR-Qf-B3E"/>
+                            <constraint firstItem="9Cj-K9-Y7z" firstAttribute="height" secondItem="liS-VP-Uvd" secondAttribute="height" id="E7Q-7f-qpO"/>
+                            <constraint firstItem="bRM-vt-jnQ" firstAttribute="leading" secondItem="bWG-fe-pHa" secondAttribute="trailing" constant="10" id="G35-f0-ubg"/>
+                            <constraint firstItem="bRM-vt-jnQ" firstAttribute="baseline" secondItem="bWG-fe-pHa" secondAttribute="baseline" id="GpI-XM-VPC"/>
+                            <constraint firstItem="9Cj-K9-Y7z" firstAttribute="leading" secondItem="liS-VP-Uvd" secondAttribute="trailing" constant="10" id="Qb8-BS-iHD"/>
+                            <constraint firstItem="Pa4-JY-2AP" firstAttribute="baseline" secondItem="9Cj-K9-Y7z" secondAttribute="baseline" id="VH5-2s-pbN"/>
+                            <constraint firstItem="9Cj-K9-Y7z" firstAttribute="width" secondItem="liS-VP-Uvd" secondAttribute="width" id="ZX2-tt-dwy"/>
+                            <constraint firstItem="liS-VP-Uvd" firstAttribute="width" secondItem="bRM-vt-jnQ" secondAttribute="width" id="coa-2w-1MB"/>
+                            <constraint firstItem="liS-VP-Uvd" firstAttribute="leading" secondItem="bRM-vt-jnQ" secondAttribute="trailing" constant="10" id="fRq-gd-M1q"/>
+                            <constraint firstItem="bWG-fe-pHa" firstAttribute="leading" secondItem="pyg-ui-DNN" secondAttribute="leading" constant="5" id="g0l-kP-oQt"/>
+                            <constraint firstItem="bRM-vt-jnQ" firstAttribute="height" secondItem="bWG-fe-pHa" secondAttribute="height" id="huu-iF-Kc8"/>
+                            <constraint firstItem="bRM-vt-jnQ" firstAttribute="width" secondItem="bWG-fe-pHa" secondAttribute="width" id="lSD-iG-djp"/>
+                            <constraint firstItem="liS-VP-Uvd" firstAttribute="height" secondItem="bRM-vt-jnQ" secondAttribute="height" id="q56-RO-5tE"/>
+                            <constraint firstItem="bWG-fe-pHa" firstAttribute="top" secondItem="unH-TZ-53n" secondAttribute="bottom" constant="60" id="rey-Hn-aVt"/>
+                            <constraint firstItem="Pa4-JY-2AP" firstAttribute="height" secondItem="9Cj-K9-Y7z" secondAttribute="height" id="zv0-n3-p1b"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="DLPopMenu" id="0CS-rE-z52"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TYm-NO-ojO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359.19999999999999" y="-205.54722638680661"/>
+        </scene>
+    </scenes>
+</document>
