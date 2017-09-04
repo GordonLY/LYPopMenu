@@ -1,2 +1,30 @@
 # LYPopMenu
-菜单选择器
+
+###简单的弹出式菜单选择器
+提供全UI定制(style类中提供几乎所有可定制的样式)
+
+# 效果图1
+![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)
+# 效果图2
+![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)
+# 效果图3
+![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
+
+# 参数说明图
+![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png)
+![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png)
+
+# 用法示例
+    /// models
+    for idx in 0...3 {
+        let model = LYPopMenuModel()
+        model.title = "标题\(idx)"
+        model.imageName = "popmenu_icon"
+        items.append(model)
+    }
+    /// 使用models 和 style创建view
+    menuView = LYPopMenuView.init(sender: sender, style: LYPopMenuStyle(), items: items)
+    /// block 回调
+    menuView?.action = {
+        print("==== action click >>>\($0)")
+    }
