@@ -3,18 +3,19 @@
 ###简单的弹出式菜单选择器
 提供全UI定制(style类中提供几乎所有可定制的样式)
 
-# 效果图1
-![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)
-# 效果图2
-![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)
-# 效果图3
-![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
+### Pod支持：
+支持pod：  pod 'LYPopMenu', '~> 1.0'
 
-# 参数说明图
-![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png)
-![image](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png)
+### 效果图
+ ![](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)![]
+    (https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)![]
+    (https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
 
-# 用法示例
+### 参数说明图
+    ![](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png)![]
+    (https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png)
+
+### 用法示例
     /// models
     for idx in 0...3 {
         let model = LYPopMenuModel()
