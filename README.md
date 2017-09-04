@@ -4,7 +4,7 @@
 提供全UI定制(style类中提供几乎所有可定制的样式)
 
 ### Pod支持：
-支持pod：  pod 'LYPopMenu', '~> 1.0'
+支持pod：  pod 'LYPopMenu', '~> 1.1.0'
 
 ### 效果图
 
