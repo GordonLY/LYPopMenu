@@ -7,6 +7,14 @@
 支持pod：  pod 'LYPopMenu', '~> 1.0'
 
 ### 效果图
+| Banner |
+|---|
+|![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) ![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) ![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) |
+
+| Banner |
+|---|
+|![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) | ![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif)| ![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) |
+
 
 | styles |
 |---|
