@@ -8,15 +8,11 @@
 
 ### 效果图
 
-| Banner |
+| styles |
 |---|
-|![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) |
-
-
-![9](https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif) 
-![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png)
-![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png)
-![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png)
+|![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png) |
+|![3](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png) |
+|![5](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png) |
 
 
 ### 参数说明图
