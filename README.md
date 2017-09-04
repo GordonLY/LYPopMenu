@@ -10,9 +10,7 @@
 
 | styles |
 |---|
-|![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png) |
-|![3](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png) |
-|![5](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png) |
+|![1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style1.png) | ![3](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style3.png) | ![5](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/style5.png) |
 
 
 ### 参数说明图
