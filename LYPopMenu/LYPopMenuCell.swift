@@ -64,7 +64,7 @@ class LYPopMenuCell: UIView {
     }
 }
 
-class LYButton: UIButton {
+fileprivate class LYButton: UIButton {
     
     var highLightBgColor = UIColor.init(red: 217.0/255, green: 217.0/255, blue: 217.0/255, alpha: 1)
     var normalBgColor = UIColor.white

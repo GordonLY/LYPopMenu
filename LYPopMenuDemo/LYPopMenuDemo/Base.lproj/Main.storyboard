@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-fe-pHa">
-                                <rect key="frame" x="5" y="124" width="65" height="36.5"/>
+                                <rect key="frame" x="5" y="286" width="65" height="36.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bWG-fe-pHa" secondAttribute="height" multiplier="16:9" id="n7n-bp-P0P"/>
@@ -57,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRM-vt-jnQ">
-                                <rect key="frame" x="80" y="123.5" width="65" height="36.5"/>
+                                <rect key="frame" x="80" y="285.5" width="65" height="36.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="style 2">
                                     <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liS-VP-Uvd">
-                                <rect key="frame" x="155" y="123.5" width="65" height="36.5"/>
+                                <rect key="frame" x="155" y="285.5" width="65" height="36.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="style 3">
                                     <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cj-K9-Y7z">
-                                <rect key="frame" x="230" y="123.5" width="65" height="36.5"/>
+                                <rect key="frame" x="230" y="285.5" width="65" height="36.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="style 4">
                                     <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -105,7 +105,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa4-JY-2AP">
-                                <rect key="frame" x="305" y="123.5" width="65" height="36.5"/>
+                                <rect key="frame" x="305" y="285.5" width="65" height="36.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="style 5">
                                     <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -140,7 +140,7 @@
                             <constraint firstItem="bRM-vt-jnQ" firstAttribute="height" secondItem="bWG-fe-pHa" secondAttribute="height" id="huu-iF-Kc8"/>
                             <constraint firstItem="bRM-vt-jnQ" firstAttribute="width" secondItem="bWG-fe-pHa" secondAttribute="width" id="lSD-iG-djp"/>
                             <constraint firstItem="liS-VP-Uvd" firstAttribute="height" secondItem="bRM-vt-jnQ" secondAttribute="height" id="q56-RO-5tE"/>
-                            <constraint firstItem="bWG-fe-pHa" firstAttribute="top" secondItem="unH-TZ-53n" secondAttribute="bottom" constant="60" id="rey-Hn-aVt"/>
+                            <constraint firstItem="bWG-fe-pHa" firstAttribute="top" secondItem="unH-TZ-53n" secondAttribute="bottom" constant="222" id="rey-Hn-aVt"/>
                             <constraint firstItem="Pa4-JY-2AP" firstAttribute="height" secondItem="9Cj-K9-Y7z" secondAttribute="height" id="zv0-n3-p1b"/>
                         </constraints>
                     </view>

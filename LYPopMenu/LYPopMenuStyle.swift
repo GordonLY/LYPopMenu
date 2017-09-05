@@ -58,8 +58,6 @@ struct LYPopMenuStyle {
     var separateMargin: (left: CGFloat, right: CGFloat) = (0,0)
     var separateColor = UIColor.init(red: 221.0/255, green: 221.0/255, blue: 221.0/255, alpha: 1)
     
-    /// autoHide
-    var isAutoHide = true
     
     private mutating func p_refreshStyle() {
         iconFrame = CGRect.init(x: 0, y: 0, width: cellHeight, height: cellHeight)
