@@ -4,7 +4,7 @@
 提供全UI定制(style类中提供几乎所有可定制的样式)
 
 ### Pod支持：
-支持pod：  pod 'LYPopMenu', '~> 1.1.0'
+支持pod：  pod 'LYPopMenu', '~> 1.2'
 
 ### 效果图
 
@@ -28,8 +28,8 @@
         items.append(model)
     }
     /// 使用models 和 style创建view
-    menuView = LYPopMenuView.init(sender: sender, style: LYPopMenuStyle(), items: items)
-    /// block 回调
-    menuView?.action = {
+    menuView3 = LYPopMenuView.menu(sender: sender, style: LYPopMenuStyle(), items: items, type: .upsidedown)
+    menuView3?.action = {
         print("==== action click >>>\($0)")
     }
+    menuView3?.show()
