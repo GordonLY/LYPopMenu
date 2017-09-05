@@ -20,7 +20,7 @@
 |![param1](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param1.png) ![param2](https://github.com/GordonLY/LYPopMenu/blob/master/screenshot/param2.png) |
 
 ### 用法示例
-    /// models
+```swift
     for idx in 0...3 {
         let model = LYPopMenuModel()
         model.title = "标题\(idx)"
@@ -28,8 +28,9 @@
         items.append(model)
     }
     /// 使用models 和 style创建view
-    menuView3 = LYPopMenuView.menu(sender: sender, style: LYPopMenuStyle(), items: items, type: .upsidedown)
-    menuView3?.action = {
+    menuView = LYPopMenuView.menu(sender: sender, style: LYPopMenuStyle(), items: items, type: .upsidedown)
+    menuView?.action = {
         print("==== action click >>>\($0)")
     }
-    menuView3?.show()
+    menuView?.show()
+```
