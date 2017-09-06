@@ -114,7 +114,7 @@ extension LYPopMenuView {
             let cell_y = cell_h * CGFloat(idx)
             let rect = CGRect.init(x: 0, y: cell_y, width: cell_w, height: cell_h)
             let cell = LYPopMenuCell.init(frame: rect, style: style)
-            cell.itemModel = items.reversed()[idx]
+            cell.itemModel = items[idx]
             cell.cellSelectAction = { [weak self] title in
                 self?.actionItem(title)
             }
