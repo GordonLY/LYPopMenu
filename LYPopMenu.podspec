@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "LYPopMenu"
-  s.version = "1.2.1"
+  s.version = "2.0"
   s.summary = "弹出式菜单选择器"
   s.homepage = "https://github.com/GordonLY/LYPopMenu"
   s.license = { :type => "MIT", :file => "LICENSE" }
