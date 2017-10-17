@@ -20,21 +20,25 @@ class LYPopMenuCell: UIView {
         }
     }
     let separateLine = UIView()
-    fileprivate var bgBtn: LYButton!
-    fileprivate var icon: UIImageView!
-    fileprivate var titleLabel: UILabel!
-    fileprivate var style: LYPopMenuStyle
+    private var bgBtn: LYButton!
+    private var icon: UIImageView!
+    private var titleLabel: UILabel!
+    private var style: LYPopMenuStyle
     init(frame:CGRect, style: LYPopMenuStyle) {
         self.style = style
         super.init(frame: frame)
         self.p_initSubviews()
     }
-    func actionBtnClick() {
+    @objc fileprivate func actionBtnClick() {
         if let action = cellSelectAction {
             action(titleLabel.text ?? "")
         }
     }
-    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+extension LYPopMenuCell {
     fileprivate func p_initSubviews() {
         
         self.layer.masksToBounds = true
@@ -58,9 +62,6 @@ class LYPopMenuCell: UIView {
         separateLine.frame = CGRect.init(x: style.separateMargin.left, y: self.ly_height - 0.5, width: self.ly_width - style.separateMargin.left - style.separateMargin.right, height: 0.5)
         separateLine.backgroundColor = style.separateColor
         self.addSubview(separateLine)
-    }
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }
 

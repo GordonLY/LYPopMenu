@@ -9,7 +9,6 @@
 import UIKit
 
 struct LYPopMenuStyle {
-
     
     init() {
         self.p_refreshStyle()

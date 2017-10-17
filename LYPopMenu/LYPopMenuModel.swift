@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 class LYPopMenuModel: NSObject {
 
     var title = ""

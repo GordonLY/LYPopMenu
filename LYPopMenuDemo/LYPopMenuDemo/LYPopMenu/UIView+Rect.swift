@@ -165,38 +165,27 @@ extension UIView {
     
     
     var ly_middleX : CGFloat {
-        
         get {
-            
             return ly_width / 2
         }
     }
     
     var ly_middleY : CGFloat {
-        
         get {
-            
             return ly_height / 2
         }
     }
     
     var ly_middlePoint : CGPoint {
-        
         get {
-            
             return CGPoint(x: ly_middleX, y: ly_middleY)
         }
     }
-    
     var ly_origin: CGPoint  {
-        
         get {
-            
             return self.frame.origin
         }
-        
         set(newVal) {
-            
             var rect = self.frame
             rect.origin = newVal
             self.frame = rect
@@ -204,14 +193,10 @@ extension UIView {
     }
     
     var ly_size: CGSize  {
-        
         get {
-            
             return self.frame.size
         }
-        
         set(newVal) {
-            
             var rect = self.frame
             rect.size = newVal
             self.frame = rect

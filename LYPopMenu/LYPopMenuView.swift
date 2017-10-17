@@ -137,6 +137,7 @@ extension LYPopMenuView {
         trigonPath.addLine(to: point_left)
         trigonPath.addLine(to: point_right)
         trigonPath.close()
+        trigonPath.lineWidth = 0
         
         let triLayer = CAShapeLayer()
         triLayer.path = trigonPath.cgPath
@@ -151,15 +152,9 @@ extension LYPopMenuView {
 }
 
 // MARK: - ********* DLUpsideView
-fileprivate class LYUpsideView: LYPopMenuView {
+ class LYUpsideView: LYPopMenuView {
     
     override func p_initSubviews() {
-        initSubviews()
-    }
-}
-
-extension LYUpsideView {
-    fileprivate func initSubviews() {
         self.backgroundColor = style.coverColor
         
         let menu_h = style.cellHeight * CGFloat(items.count) + style.menuArrowHeight
@@ -178,16 +173,11 @@ extension LYUpsideView {
     }
 }
 
+
 // MARK: - ********* DLUpsidedownView
 fileprivate class LYUpsidedownView: LYPopMenuView {
     
     override func p_initSubviews() {
-        initSubviews()
-    }
-}
-
-extension LYUpsidedownView {
-    fileprivate func initSubviews() {
         self.backgroundColor = style.coverColor
         
         let menu_h = style.cellHeight * CGFloat(items.count) + style.menuArrowHeight
@@ -207,6 +197,7 @@ extension LYUpsidedownView {
         self.p_initMenuCells(from: 0)
     }
 }
+
 
 
 
