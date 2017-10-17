@@ -5,11 +5,11 @@
 
 ### Pod支持：
 
+Swift 4
+pod 'LYPopMenu', '~> 2.0'
+
 Swift 3
  pod 'LYPopMenu', '~> 1.2.1'
-
-Swift 4
- pod 'LYPopMenu', '~> 2.0'
 
 ### 效果图
 
