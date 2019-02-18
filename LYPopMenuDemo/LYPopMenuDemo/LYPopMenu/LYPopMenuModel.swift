@@ -9,7 +9,7 @@
 import UIKit
 
 @objcMembers
-class LYPopMenuModel: NSObject {
+final class LYPopMenuModel: NSObject {
 
     var title = ""
     var imageName: String?

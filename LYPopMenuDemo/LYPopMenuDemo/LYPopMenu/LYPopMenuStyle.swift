@@ -38,6 +38,8 @@ struct LYPopMenuStyle {
     
     /// 菜单小箭头的高度
     var menuArrowHeight:CGFloat = 8
+    /// 菜单小箭头的宽度
+    var menuArrowWid:CGFloat = 12
     /// 小图标的frame
     var iconFrame = CGRect.zero
     /// 小图标和文本之间的间距 (设置后，titleFrame无效)

@@ -126,12 +126,13 @@ extension LYPopMenuView {
     fileprivate func p_drawTriangleLayer(isUp: Bool) {
         guard menuView.frame != CGRect.zero else { return }
         let arrHei = isUp ? style.menuArrowHeight : -style.menuArrowHeight
+        let arrWid = style.menuArrowWid
         let old_y = isUp ? sender.ly_bottom : sender.ly_top
         let point_old = CGPoint.init(x: sender.ly_centerX, y: old_y)
         
         let point_top = self.convert(point_old, to: menuView)
-        let point_left = CGPoint.init(x: point_top.x - arrHei * 0.5, y: point_top.y + arrHei)
-        let point_right = CGPoint.init(x: point_top.x + arrHei * 0.5, y: point_left.y)
+        let point_left = CGPoint.init(x: point_top.x - arrWid * 0.5, y: point_top.y + arrHei)
+        let point_right = CGPoint.init(x: point_top.x + arrWid * 0.5, y: point_left.y)
         let trigonPath = UIBezierPath()
         trigonPath.move(to: point_top)
         trigonPath.addLine(to: point_left)
